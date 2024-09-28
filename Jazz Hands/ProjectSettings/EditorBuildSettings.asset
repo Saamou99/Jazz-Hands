@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Jazz Hands.unity
+    guid: 73fd563d53026474cbc39765439c7022
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4ab372d0fd1edc247bb215cafcf3c8d2,
       type: 2}
