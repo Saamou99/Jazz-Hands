@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioS : MonoBehaviour
 {
     public AudioSource audioSource; // Reference to the AudioSource component
-    public float targetVolume = 1f; // Target volume (normal volume)
+    public float targetVolume = 0.9f; // Target volume (normal volume)
     public float duration = 10f;    // Duration over which to increase the volume and pitch
     public float initialVolume = 0.1f; // Starting low volume
     public float initialPitch = 0.9f; // Starting low pitch
