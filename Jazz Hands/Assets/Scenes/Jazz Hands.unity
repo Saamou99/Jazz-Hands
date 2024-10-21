@@ -3356,7 +3356,7 @@ PrefabInstance:
     - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Colliders.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
