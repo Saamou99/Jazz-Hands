@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -667,7 +668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 79822353}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 4.2
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -699,8 +700,8 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_HeadTransform: {fileID: 206032472}
-  m_LeftControllerTransform: {fileID: 793139954}
-  m_RightControllerTransform: {fileID: 1444954895}
+  m_LeftControllerTransform: {fileID: 134050107}
+  m_RightControllerTransform: {fileID: 912369817}
   m_LeftHandMovementDirection: 0
   m_RightHandMovementDirection: 0
 --- !u!114 &79822353
@@ -828,9 +829,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 79822353}
-  m_TurnSpeed: 60
+  m_TurnSpeed: 90
   m_LeftHandTurnAction:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Left Hand Turn
       m_Type: 0
@@ -1752,10 +1753,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809074471}
     m_Modifications:
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 79822356}
     - target: {fileID: 3449784919008568370, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Name
-      value: Teleport Anchor (2)
+      value: Teleport Anchor 6
       objectReference: {fileID: 0}
     - target: {fileID: 8164705571879959090, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
@@ -2198,12 +2204,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1001 &214610844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2212,10 +2218,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809074471}
     m_Modifications:
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 79822356}
     - target: {fileID: 3449784919008568370, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Name
-      value: Teleport Anchor (4)
+      value: Teleport Anchor 4
       objectReference: {fileID: 0}
     - target: {fileID: 8164705571879959090, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
@@ -2533,6 +2544,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809074471}
     m_Modifications:
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 79822356}
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 79822354}
     - target: {fileID: 3449784919008568370, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Name
@@ -2653,10 +2689,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809074471}
     m_Modifications:
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 79822356}
     - target: {fileID: 3449784919008568370, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Name
-      value: Teleport Anchor (6)
+      value: Teleport Anchor 5
       objectReference: {fileID: 0}
     - target: {fileID: 8164705571879959090, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
@@ -2727,10 +2768,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809074471}
     m_Modifications:
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 79822356}
     - target: {fileID: 3449784919008568370, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Name
-      value: Teleport Anchor (3)
+      value: Teleport Anchor 2
       objectReference: {fileID: 0}
     - target: {fileID: 8164705571879959090, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
@@ -3117,10 +3163,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809074471}
     m_Modifications:
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818971628382573792, guid: fad94b617f0540568dbf4c9c4011248c,
+        type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 79822356}
     - target: {fileID: 3449784919008568370, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
       propertyPath: m_Name
-      value: Teleport Anchor (5)
+      value: Teleport Anchor 3
       objectReference: {fileID: 0}
     - target: {fileID: 8164705571879959090, guid: fad94b617f0540568dbf4c9c4011248c,
         type: 3}
@@ -4217,7 +4273,7 @@ MonoBehaviour:
   m_TeleportInteractor: {fileID: 1842176352}
   m_TeleportModeActivate: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  m_TeleportModeCancel: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
+  m_TeleportModeCancel: {fileID: 2307464322626738743, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
   m_Turn: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_SnapTurn: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f,
@@ -7155,11 +7211,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 33650129}
-  - {fileID: 170956151}
   - {fileID: 525167165}
-  - {fileID: 214610845}
   - {fileID: 611909996}
+  - {fileID: 214610845}
   - {fileID: 511332229}
+  - {fileID: 170956151}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1842176348 stripped
@@ -7207,7 +7263,7 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: ebf48884-c706-470b-8cc6-b9f74f98556d
+      m_Id: 63947f0b-57d3-40fd-aec4-3d48e7d7cfa2
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -7220,7 +7276,7 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: f5d2a896-116d-4f0e-a73e-ef000fce34df
+      m_Id: a5c5bfe4-aa92-46f4-97e8-0905a1d8cb4b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -7233,7 +7289,7 @@ MonoBehaviour:
       m_Name: Is Tracked
       m_Type: 1
       m_ExpectedControlType: Button
-      m_Id: e432bd3e-7f52-415d-8793-87f6a82b9fbc
+      m_Id: 5e71deec-252e-4140-8f9e-da15a98a85e7
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -8086,6 +8142,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 460148741}
   m_Colliders:
   - {fileID: 544415386}
+  - {fileID: 1866785822}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
