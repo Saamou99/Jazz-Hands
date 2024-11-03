@@ -90,7 +90,7 @@ PlayerSettings:
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
-  resizableWindow: 0
+  resizableWindow: 1
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
@@ -101,7 +101,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -137,8 +137,8 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1.0
   preloadedAssets:
-  - {fileID: -2586960551064313870, guid: 4ab372d0fd1edc247bb215cafcf3c8d2, type: 2}
-  - {fileID: 2345965812955020638, guid: 3ac6672d0a110dd4b94e4760aba39b6f, type: 2}
+  - {fileID: -2700405066690227351, guid: 4ab372d0fd1edc247bb215cafcf3c8d2, type: 2}
+  - {fileID: 6292185206223411833, guid: 3ac6672d0a110dd4b94e4760aba39b6f, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
